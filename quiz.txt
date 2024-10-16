@@ -1,0 +1,45 @@
+def get_word(sentence,n):
+    if n>0:
+        words=sentence.split()
+        if n<=len(words):
+            return(words[n-1])
+    return("")
+print(get_word("This is a lesson about lists",4))
+print(get_word("This is a lesson about lists",-4))
+print(get_word("Now we are cooking!",1))
+print(get_word("Now we are cooking!",5))
+# # # def get_word(sentence,n):
+# # #     if n>0:
+# # #         words=sentence.split()
+# # #         if n<=len(words):
+# # #             return(words[n-1])
+# # #     return("")
+# # # print(get_word("This is a lesson about lists",4))
+# # # print(get_word("This is a lesson about lists",-4))
+# # # print(get_word("Now we are cooking!",1))
+# # # print(get_word("Now we are cooking!",5))
+# # yaha pr hum log user se name add krwa rhy hn fr us ko 3 se multiply kr k us ka lucky number neka rhy hn
+# # name=input("enter your name: ")
+# # number=len(name)*3
+# # print("Hello {}, your lucky number is {}".format(name,number))
+# # yaha pr hum log ek list me append kr rhy hn means us list ka last pr ek name add kr rhy hn 
+# # us k baad insert remove pop kr rhy hn
+# # fruits=["Pineapple","Banan","Apple","Melopn"]
+# # fruits.append("Kiwi")
+# # print(fruits)
+# # fruits.insert(2,"greaps")
+# # print(fruits)
+# # fruits.remove("Apple")
+# # print(fruits)
+# # fruits.pop()
+# # print(fruits)
+# def convert_seconds(seconds):
+#     hours =seconds//3600
+#     minutes =(seconds-hours*3600)//60
+#     remaining_seconds = seconds-hours*3600-minutes *60
+#     return hours,minutes,remaining_seconds
+# result = convert_seconds(5000)
+# print(type(result))
+# print(result)
+# hours, minutes, seconds= convert_seconds(5000)
+# print(hours, minutes, seconds)
